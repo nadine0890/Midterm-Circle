@@ -1,0 +1,41 @@
+* {
+    background-color: #F2F4FC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact {
+    background-color: #072AC8;
+    border: none;
+    color: #F2F4FC;
+    padding: 5%;
+}
+h1 {
+    font-size: 25px;
+    color: #292E47;
+
+}
+li {
+    color: #6B708D;
+    font-size: 20px;
+    list-style: none;
+}
+#button-nav {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: end;
+    text-align: center;
+}
+.list-nav {
+    padding: 5%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+
