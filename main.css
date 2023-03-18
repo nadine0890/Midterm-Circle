@@ -1,6 +1,7 @@
 * {
     background-color: #F2F4FC;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
 }
 .nav-bar {
     width: 100%;
@@ -12,7 +13,9 @@
     background-color: #072AC8;
     border: none;
     color: #F2F4FC;
-    padding: 5%;
+    padding: 3%;
+    font-size: 25px;
+    font-display: bottom;
 }
 h1 {
     font-size: 25px;
@@ -29,7 +32,7 @@ li {
     position: relative;
     flex-direction: row;
     justify-content: end;
-    text-align: center;
+    text-align:justify;
 }
 .list-nav {
     padding: 5%;
@@ -38,7 +41,240 @@ li {
     flex-direction: row;
     justify-content: center;
 }
-
 .home-li {
     color:#072AC8;
+}
+.intro-pics {
+    background-image: url(/hero-section-20230228T193810Z-001/hero-section/hero-image.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 15%;
+
+}
+.intro-home {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.intro-1 {
+    width: 20%;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    border-radius: 15%;
+}
+.intro-2 {
+    width: 15%;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 15%;
+    margin: 0%;
+}  
+.intro-h1 {
+    font-size: 40px;
+    color: #292E47;
+} 
+.intro-text {
+    padding: 10%;
+}
+.intro-h3 {
+    font-size: 20px;
+    color: #6B708D;
+    font-weight: lighter;
+}
+.touch {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+}   
+.intro-h4 {
+    font-size: 15px;
+    color: #6B708D;
+    font-weight: lighter;
+}
+.logos {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5% 0% 5% 0%;
+    filter:grayscale(100%)
+}
+.projects img {
+    width: 80%;
+    background-color: #fff;
+}
+.projects-div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.vecto-pic {
+    width: 70%;
+}
+.projects {
+    padding: 10%;
+}
+.simplify {
+    background-color: white;
+}
+.dashcoin {
+    background-color: white;
+}
+.vectorify {
+    background-color: white;
+}
+.title-logos {
+    font-size: 40px;
+    padding: 1.5%;
+}
+.learn-more {
+    text-decoration: none;
+}
+.projects-div h5 {
+    font-size: 30px;
+    color:#292E47;
+    background-color: #fff;
+}
+.projects-div p {
+    font-size: 20px;
+    color:#6B708D;
+    background-color: #fff;
+}
+.testimonial {
+    background-color: #292E47;
+    background-image: url(/testimonial-section-20230228T193817Z-001/testimonial-section/orbit.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    display:flex;
+    position: relative;
+    flex-direction: column;
+    width:100%;
+}
+.top-left {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 15%;
+    margin: 0%;
+}
+.top-right {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 15%;
+    margin: 0%;
+}
+.bottom-left {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-radius: 15%;
+    margin: 0%;
+}
+.bottom-right {
+    width: 10%;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 15%;
+    margin: 0%;
+}
+.test-client {
+    display:flex;
+    position: relative;
+    justify-content: column;
+    width: 100%;
+}
+.test-client img {
+    width: 100%;
+}
+.services img {
+    width: 25%;
+    background-color: #D1EDFF;
+    padding: 20px;
+    border-radius: 100%;
+}
+.services-div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.services {
+    padding: 10%;
+}
+.ui-design {
+    background-color: white;
+}
+.ue-design {
+    background-color: white;
+}
+.app-dev {
+    background-color: white;
+}
+.title-service {
+    font-size: 40px;
+    padding: 1.5%;
+}
+.learn-more {
+    text-decoration: none;
+}
+.services-div h5 {
+    font-size: 30px;
+    color:#292E47;
+    background-color: #fff;
+}
+.services-div p {
+    font-size: 20px;
+    color:#6B708D;
+    background-color: #fff;
+}
+.background-square {
+    background-color: #fff;
+}
+.questions {
+    background-color: #FFC600;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.questions h1 {
+    background-color: #FFC600;
+    font-size: 35px;
+    color:#292E47;
+    font-weight: 500;
+}
+.questions input {
+    background-image: url(/newsletter-20230228T193812Z-001/newsletter/icon/mail.svg);
+    background-repeat: no-repeat;
+    padding-right: 5px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #FFF;
+    height: 75%;
+    width: 75%;
+}
+.questions form {
+    background-color: #FFC600;
+}
+.questions p {
+    background-color: #FFC600;
 }
