@@ -1,41 +1,69 @@
 * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
     background-color: #F2F4FC;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    margin-left: 125px;
+    margin-right: 125px;
 }
 .nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-decoration: none;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
 }
 .contact {
     background-color: #072AC8;
     border: none;
     color: #F2F4FC;
-    padding: 5%;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
 }
-h1 {
-    font-size: 25px;
+.simplify h1 {
+    font-size: 100px;
     color: #292E47;
-
+    margin: 0;
 }
 li {
     color: #6B708D;
     font-size: 20px;
     list-style: none;
 }
-#button-nav {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: end;
-    text-align: center;
+a {
+    text-decoration: none;
 }
 .list-nav {
-    padding: 5%;
     display: flex;
     position: relative;
     flex-direction: row;
     justify-content: center;
 }
-
+.list-nav li {
+    margin: 50px;
+}
+.simplify img {
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.simplify div {
+    display: flex;
+    justify-content: space-between;
+    color:#6B708D;
+}
+.simplify p {
+    display: flex;
+    align-items: end;
+}
+.text-ipsum {
+    color: #6B708D;
+    text-shadow: 2px 2px 5px #6B708D;
+    padding-top: 35px;
+    line-height: 25px;
+}
