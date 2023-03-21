@@ -1,102 +1,108 @@
 * {
-    background-color: #F2F4FC;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 10px;
+}
+body {
+    background-color: #F2F4FC;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 .nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    text-decoration: none;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
 }
 .contact {
     background-color: #072AC8;
     border: none;
     color: #F2F4FC;
-    padding: 3%;
-    font-size: 25px;
-    font-display: bottom;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
 }
 h1 {
     font-size: 25px;
     color: #292E47;
-
 }
 li {
     color: #6B708D;
     font-size: 20px;
     list-style: none;
 }
-#button-nav {
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    justify-content: end;
-    text-align:justify;
+a {
+    text-decoration: none;
 }
 .list-nav {
-    padding: 5%;
     display: flex;
     position: relative;
     flex-direction: row;
     justify-content: center;
 }
+.list-nav li {
+    margin: 50px;
+}
 .home-li {
     color:#072AC8;
+    text-decoration: none;
 }
 .intro-pics {
     background-image: url(/hero-section-20230228T193810Z-001/hero-section/hero-image.png);
-    background-size: 100%;
+    background-size: 84%;
     background-repeat: no-repeat;
-    width: 50%;
-    padding: 15%;
-
+    width: 77%;
+    position: relative;
 }
 .intro-home {
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-evenly;
 }
 .intro-1 {
-    width: 20%;
+    width: 55%;
     display: flex;
     position: absolute;
     top: 0%;
-    left: 40%;
+    left: -15%;
     border-radius: 15%;
+    background-color: transparent;
 }
 .intro-2 {
-    width: 15%;
+    width:49%;
     display: flex;
     position: absolute;
-    bottom: 0%;
-    right: 0%;
     border-radius: 15%;
-    margin: 0%;
+    background-color: transparent;
+    bottom: -18%;
+    right: 7%;
 }  
 .intro-h1 {
-    font-size: 40px;
+    font-size: 60px;
     color: #292E47;
 } 
 .intro-text {
-    padding: 10%;
+    padding: 152px;
 }
 .intro-h3 {
     font-size: 20px;
     color: #6B708D;
     font-weight: lighter;
+    line-height: 30px;
 }
 .touch {
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-around;
 }   
-.intro-h4 {
-    font-size: 15px;
+.touch .intro-h4 {
+    font-size: 20px;
     color: #6B708D;
     font-weight: lighter;
+    margin-left: 40px;
 }
 .logos {
     display: flex;
@@ -106,37 +112,26 @@ li {
     padding: 5% 0% 5% 0%;
     filter:grayscale(100%)
 }
-.projects img {
-    width: 80%;
-    background-color: #fff;
-}
+
 .projects-div {
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-around;
-}
-.vecto-pic {
-    width: 70%;
+    gap: 50px;
 }
 .projects {
-    padding: 10%;
+    padding: 5% 10% 5% 10%;
 }
 .simplify {
     background-color: white;
-}
-.dashcoin {
-    background-color: white;
-}
-.vectorify {
-    background-color: white;
+    padding: 35px;
 }
 .title-logos {
     font-size: 40px;
-    padding: 1.5%;
 }
 .learn-more {
     text-decoration: none;
+    background-color: white;
 }
 .projects-div h5 {
     font-size: 30px;
@@ -148,88 +143,95 @@ li {
     color:#6B708D;
     background-color: #fff;
 }
+.simplify-1 {
+    background-color: white;
+}
+.projects img {
+    height: 360px;
+    width: 450px;
+    background-color: #FFF;
+}
 .testimonial {
     background-color: #292E47;
     background-image: url(/testimonial-section-20230228T193817Z-001/testimonial-section/orbit.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    display:flex;
+    background-size: 100%;
+    display: flex;
     position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 700px;
+}
+.testimonial-col-1 {
+    display: flex;
     flex-direction: column;
-    width:100%;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
 }
-.top-left {
-    width: 10%;
+.testimonial-col-2-title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+.testimonial-col-2-text {
+    color: #FFC600;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+.testimonial-col-2-img {
+    flex-direction: row;
     display: flex;
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    border-radius: 15%;
-    margin: 0%;
+    justify-content: center;
 }
-.top-right {
-    width: 10%;
+.testimonial-col-2 {
     display: flex;
-    position: absolute;
-    bottom: 0%;
-    right: 0%;
-    border-radius: 15%;
-    margin: 0%;
+    flex-direction: column;
+    background-color: transparent;
+    text-align: center;
+    justify-content: space-evenly;
 }
-.bottom-left {
-    width: 10%;
-    display: flex;
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    border-radius: 15%;
-    margin: 0%;
+.testimonial-col-1 img {
+    width: 60%;
+    background-color: transparent;
 }
-.bottom-right {
-    width: 10%;
-    display: flex;
-    position: absolute;
-    bottom: 0%;
-    left: 0%;
-    border-radius: 15%;
-    margin: 0%;
+.testimonial-col-2 img {
+    width:14%;
+    background-color: transparent;
+    border-radius: 100%;
+    padding:10px;
 }
-.test-client {
-    display:flex;
-    position: relative;
-    justify-content: column;
-    width: 100%;
+.name-booking {
+    color: #D1EDFF;
+    text-align: left;
 }
-.test-client img {
-    width: 100%;
+.web-booking {
+    font-size: 15px;
+    color: white;
+    text-align: left;
 }
 .services img {
-    width: 25%;
-    background-color: #D1EDFF;
-    padding: 20px;
-    border-radius: 100%;
+    width: 70px;
+}
+.services {
+    padding: 5% 10% 5% 10%;
 }
 .services-div {
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 50px;
 }
-.services {
-    padding: 10%;
-}
-.ui-design {
-    background-color: white;
-}
-.ue-design {
-    background-color: white;
-}
-.app-dev {
-    background-color: white;
+.service-text {
+    padding: 35px;
 }
 .title-service {
     font-size: 40px;
-    padding: 1.5%;
 }
 .learn-more {
     text-decoration: none;
@@ -247,34 +249,77 @@ li {
 .background-square {
     background-color: #fff;
 }
+.img-container {
+    width: 100px;
+    background-color: #D1EDFF;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
 .questions {
     background-color: #FFC600;
     display: flex;
     position: relative;
     flex-direction: column;
     align-items: center;
-    padding: 25px;
+    padding: 100px 25px 100px 25px;
 }
 .questions h1 {
     background-color: #FFC600;
-    font-size: 35px;
+    font-size: 40px;
     color:#292E47;
-    font-weight: 500;
+    font-weight: bold;
 }
 .questions input {
     background-image: url(/newsletter-20230228T193812Z-001/newsletter/icon/mail.svg);
     background-repeat: no-repeat;
-    padding-right: 5px;
+    padding: 20px 50px 20px 40px;
     display: flex;
     position: relative;
     align-items: center;
     background-color: #FFF;
     height: 75%;
     width: 75%;
+    border: none;
+    margin-right: 15px;
 }
 .questions form {
     background-color: #FFC600;
 }
 .questions p {
     background-color: #FFC600;
+    font-size: 25px;
+    color: #292E47;
+}
+form {
+    display:flex;
+}
+footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.footer-right ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-right li {
+    margin: 25px;
+}
+.footer-left img {
+    width: 30%;
+}
+.footer-left address {
+    margin: 25px 0px;
 }

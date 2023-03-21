@@ -10,17 +10,20 @@
         <ul class="nav-bar">
             <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="Circle">
             <div class="list-nav">
-                <li class="home-li"><b>Home</b></li>
+                <li class="home-li"><a href="/Home/home.html"><b>Home</b></a></li>
                 <li><b>Projects</b></li>
                 <li><b>Service</b></li>
             </div>
-            <button class="contact" id="button-nav">Contact Us</button>
+            <div class="contact-container">
+                <button class="contact">Contact Us</button>
+            </div>
         </ul>
     </nav>
     <section class="intro-home">
         <div class="intro-text">
             <h1 class="intro-h1">Empower Your Business With Stunning Design!</h1>
-            <h3 class="intro-h3">Circle is a digital design and development studio. We design and develop astonishing websites and mobile apps.</h3>
+            <h3 class="intro-h3">Circle is a digital design and development studio.<br>
+            We design and develop astonishing websites and mobile apps.</h3>
             <div class="touch">   
                 <button class="contact">Get in touch</button>
                 <h4 class="intro-h4">See our work</h4>
@@ -41,7 +44,7 @@
     <section class="projects">
         <h2 class="title-logos">Recent Projects</h2>
         <div class="projects-div">
-            <div>
+            <div class="simplify-1">
                 <img src="/projects-section-20230228T193814Z-001/projects-section/1.jpg" alt="simplify">
                 <div class="simplify">
                     <h5>Simplify</h5>
@@ -49,17 +52,17 @@
                     <a href="#" class="learn-more">Learn More</a>
                 </div>    
             </div>
-            <div>
+            <div class="simplify-1">
                 <img src="/projects-section-20230228T193814Z-001/projects-section/2.jpg" alt="dashcoin">
-                <div class="dashcoin">
+                <div class="simplify">
                     <h5>Dashcoin</h5>
                     <p>Web Development</p><br>
                     <a href="#" class="learn-more">Learn More</a>    
                 </div>
             </div>
-            <div>
-                <img class="vecto-pic" src="/projects-section-20230228T193814Z-001/projects-section/3.jpg" alt="vectorify">
-                <div class="vectorify">
+            <div class="simplify-1">
+                <img src="/projects-section-20230228T193814Z-001/projects-section/3.jpg" alt="vectorify">
+                <div class="simplify">
                     <h5>Vectorify</h5>
                     <p>User Experience Design</p><br>
                     <a href="#" class="learn-more">Learn More</a>
@@ -68,43 +71,57 @@
         </div>
     </section>
     <section class="testimonial">
-        <div>
+        <div class="testimonial-col-1">
             <img class="top-left"   src="/testimonial-section-20230228T193817Z-001/testimonial-section/memoji-1.png" alt="memoji-1">
             <img class="bottom-left" src="/testimonial-section-20230228T193817Z-001/testimonial-section/memoji-3.png" alt="memoji-3">
+        </div>
+        <div class="testimonial-col-2">
+            <div>
+                <p class="testimonial-col-2-title">Hear What Our Clients Have to Say</p>
+                <p class="testimonial-col-2-text">"Circle helped us through every stage of our startup.<br>
+                We really enjoyed working with you."</p>
+            </div>
+            <div class="testimonial-col-2-img">
+                <img src="/testimonial-section-20230228T193817Z-001/testimonial-section/profile.png" alt="profile">
+                <div>
+                    <p class="name-booking">Kristin Watson</p>
+                    <p class="web-booking">Booking.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-col-1">
             <img class="top-right" src="/testimonial-section-20230228T193817Z-001/testimonial-section/memoji-2.png" alt="memoji-2">
             <img class="bottom-right" src="/testimonial-section-20230228T193817Z-001/testimonial-section/memoji-4.png" alt="memoji-4">
-            <div class="test-client">
-                <p>Hear What Our Clients Have to Say</p>
-                <p>"Circle helped us through every stage of our startup.</p>
-                <p>We really enjoyed working with you."</p>
-                <img src="/testimonial-section-20230228T193817Z-001/testimonial-section/profile.png" alt="profile">
-                <p>Kristin Watson</p>
-                <p>Booking.com</p>
-            </div>
         </div>
     </section>
     <section class="services">
         <h2 class="title-service">Our Services</h2>
         <div class="services-div">
             <div class="background-square">
-                <img src="/services-section-20230228T193815Z-001/services-section/icons/1.svg" alt="pen">
-                <div class="ui-design">
+                <div class="img-container">
+                    <img src="/services-section-20230228T193815Z-001/services-section/icons/1.svg" alt="pen">
+                </div>
+                <div class="service-text">
                     <h5>User Interface Design</h5>
                     <p>Circle provides you with an interface design that is accessible to everyone.</p>
                     <a href="#" class="learn-more">Learn More</a>
                 </div>
             </div>
             <div class="background-square">
-                <img src="/services-section-20230228T193815Z-001/services-section/icons/2.svg" alt="arrow">
-                <div class="ue-design">
+                <div class="img-container">
+                    <img src="/services-section-20230228T193815Z-001/services-section/icons/2.svg" alt="arrow">
+                </div>
+                <div class="service-text">
                     <h5>User Experience Design</h5>
                     <p>Circle always focuses on delivering the best user experience for your customers.</p>
                     <a href="#" class="learn-more">Learn More</a>
                 </div>
             </div>
             <div class="background-square">
-                <img src="/services-section-20230228T193815Z-001/services-section/icons/3.svg" alt="page">
-                <div class="app-dev">
+                <div class="img-container">
+                    <img src="/services-section-20230228T193815Z-001/services-section/icons/3.svg" alt="page">
+                </div>
+                <div class="service-text">
                     <h5>Application Development</h5>
                     <p>We develop high quality mobile and web applications using the latest technology stack.</p>
                     <a href="#" class="learn-more">Learn More</a>
@@ -121,18 +138,24 @@
         </form>
     </section>
     <footer>
-        <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="circle">
-        <address>
-            2972 Westheimer Rd. Santa Ana Illinois 85486
-        </address>
-        <ul>
-            <li>Team</li>
-            <li>Service</li>
-            <li>About US</li>
-            <li>Press</li>
-            <li>Projects</li>
-            <li>Privacy Policy</li>
-        </ul>
+        <div class="footer-left">
+            <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="circle">
+            <address>
+                2972 Westheimer Rd. Santa Ana Illinois 85486
+            </address>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li>Team</li>
+                <li>Service</li>
+                <li>About Us</li>
+            </ul>
+            <ul>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
     </footer>
   </body>
 </html>
