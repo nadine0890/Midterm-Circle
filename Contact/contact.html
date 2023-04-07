@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Circle Contact</title>
     <link rel="stylesheet" href="/Contact/contact.css">
   </head>
@@ -24,32 +24,28 @@
     <section>
         <h5>Contact Us</h5>
         <div class="container">
-            <form action="/some.url">
+            <form action="/Gracias/gracias.html">
                 <label for="fullname">Full Name</label>
                 <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
                 <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter your email">
+                <input type="email" id="email" placeholder="Enter your email" required>
                 <label for="phone">Phone</label>
-                <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required>
+                <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9]{9}"required>
                 <div class="message-box">
                   <label for="message">Message</label>
-                  <textarea id="message" name="message" placeholder="Write your message here..." rows="10" maxlength="1000"></textarea>
+                  <textarea id="message" name="message" placeholder="Write your message here..." rows="10" maxlength="1000" required></textarea>
                 </div>
                 <button class="contact">Submit</button>
             </form>
         </div>
     </section>
-
-  
-
     <footer>
         <div class="footer-left">
             <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="circle">
             <address>
                 2972 Westheimer Rd. Santa Ana Illinois 85486
             </address>
-        </div>
-        <div class="footer-right">
+        </div>        <div class="footer-right">
             <ul>
                 <li>Team</li>
                 <li>Service</li>
