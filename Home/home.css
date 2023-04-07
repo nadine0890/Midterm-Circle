@@ -47,6 +47,7 @@ a {
 .list-nav li {
     margin: 50px;
 }
+/*simplify*/
 .simplify img {
     width: 100%;
     height: 450px;
@@ -67,6 +68,7 @@ a {
     padding-top: 35px;
     line-height: 25px;
 }
+/*other projects*/
 .blocks-projects {
     display: flex;
     position: relative;
@@ -104,6 +106,7 @@ a {
 .projects-1 {
     background-color: white;
 }
+/*questions*/
 .questions {
     background-color: #FFC600;
     display: flex;
@@ -143,6 +146,7 @@ a {
 form {
     display:flex;
 }
+/*address*/
 footer {
     display: flex;
     position: relative;
