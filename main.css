@@ -3,8 +3,8 @@
 }
 body {
     background-color: #F2F4FC;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .nav-bar {
     width: 100%;
@@ -52,7 +52,7 @@ a {
 }
 .intro-pics {
     background-image: url(/hero-section-20230228T193810Z-001/hero-section/hero-image.png);
-    background-size: 84%;
+    background-size: 100%;
     background-repeat: no-repeat;
     width: 77%;
     position: relative;
@@ -63,29 +63,29 @@ a {
     flex-direction: row;
 }
 .intro-1 {
-    width: 55%;
+    width: 65%;
     display: flex;
     position: absolute;
     top: 0%;
-    left: -15%;
+    left: -19%;
     border-radius: 15%;
     background-color: transparent;
 }
 .intro-2 {
-    width:49%;
+    width:65%;
     display: flex;
     position: absolute;
     border-radius: 15%;
     background-color: transparent;
-    bottom: -18%;
-    right: 7%;
+    bottom: -7%;
+    right: -13%;
 }  
 .intro-h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #292E47;
 } 
 .intro-text {
-    padding: 152px;
+    padding: 90px;
 }
 .intro-h3 {
     font-size: 20px;
@@ -147,10 +147,13 @@ a {
     background-color: white;
 }
 .projects img {
-    height: 360px;
-    width: 450px;
-    background-color: #FFF;
+    width: 100%;
+    background-color: #FFF;   
 }
+.vectorify {
+    width: 300%;
+}
+
 .testimonial {
     background-color: #292E47;
     background-image: url(/testimonial-section-20230228T193817Z-001/testimonial-section/orbit.png);
@@ -284,6 +287,7 @@ a {
     width: 75%;
     border: none;
     margin-right: 15px;
+    background-position: 2%;
 }
 .questions form {
     background-color: #FFC600;

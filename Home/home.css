@@ -26,7 +26,7 @@ body {
     font-weight: bold;
 }
 .simplify h1 {
-    font-size: 100px;
+    font-size: 75px;
     color: #292E47;
     margin: 0;
 }
@@ -67,8 +67,77 @@ a {
     padding-top: 35px;
     line-height: 25px;
 }
-.other-pr .other {
-    padding-top: 75px;
-    font-size: 30px;
+.blocks-projects {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    gap: 5%;
+}
+.other {
+    padding-top: 50px;
+    font-size: 40px;
     color: #292E47;
+}
+.other-projects {
+    padding: 5% 10% 5% 10%;
+}
+.other-projects img {
+    width: 100%;
+}
+.learn-more {
+    text-decoration: none;
+    background-color: white;
+}
+.other-projects h5 {
+    font-size: 30px;
+    color:#292E47;
+    background-color: #fff;
+}
+.other-projects p {
+    font-size: 20px;
+    color:#6B708D;
+    background-color: #fff;
+}
+.projects-1 {
+    background-color: white;
+    padding: 1%
+}
+.questions {
+    background-color: #FFC600;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 25px 100px 25px;
+}
+.questions h1 {
+    background-color: #FFC600;
+    font-size: 40px;
+    color:#292E47;
+    font-weight: bold;
+}
+.questions input {
+    background-image: url(/newsletter-20230228T193812Z-001/newsletter/icon/mail.svg);
+    background-repeat: no-repeat;
+    padding: 20px 50px 20px 40px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    background-color: #FFF;
+    height: 75%;
+    width: 75%;
+    border: none;
+    margin-right: 15px;
+    background-position: 2%;
+}
+.questions form {
+    background-color: #FFC600;
+}
+.questions p {
+    background-color: #FFC600;
+    font-size: 25px;
+    color: #292E47;
+}
+form {
+    display:flex;
 }
