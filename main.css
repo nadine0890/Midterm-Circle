@@ -331,3 +331,50 @@ footer {
 .footer-left address {
     margin: 25px 0px;
 }
+@media screen and (min-width: 768px) {
+    .nav-bar {
+        width: auto;
+    }
+    .intro-h1 {
+        font-size: 2.5em;
+    }
+    .intro-h3 {
+        font-size: 1.5em;
+    }
+    .intro-text {
+        padding: 2em 0em 2em 2em;
+    }
+    .intro-pics {
+        max-width: 100%;
+    }
+    .intro-2 {
+        bottom: 20%;
+        right: -5%;
+    }
+    .logos {
+        justify-content: space-evenly;
+    }
+    .services-div {
+        gap: 10px;
+        justify-content: space-evenly;
+    }
+    .service-text {
+        padding: 20px;
+    }
+    .services-div h5 {
+        font-size: 20px;
+    }
+    .projects {
+        padding: 0% 5% 5% 5%;
+    }
+    .questions h1 {
+        font-size: 35px;
+    }
+    .footer-right li {
+        font-size: 15px;
+    }
+    .footer-right ul {
+        flex-wrap: nowrap;
+    }
+}
+
