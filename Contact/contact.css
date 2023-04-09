@@ -112,3 +112,25 @@ textarea {
     padding: 15px;
     font-weight: bold;
 }
+@media screen and (min-width: 768px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .nav-bar {
+        width: auto;
+    }
+    h5 {
+        font-size: 50px;
+        margin: auto;
+    }
+    .container form {
+        padding: 0%;
+    }
+    .footer-right li {
+        font-size: 15px;
+    }
+    .footer-right ul {
+        flex-wrap: nowrap;
+    }
+}
