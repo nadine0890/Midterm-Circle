@@ -79,3 +79,18 @@ footer {
 .footer-left address {
     margin: 25px 0px;
 }
+@media screen and (min-width: 768px) {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .nav-bar {
+        width: auto;
+    }
+    .footer-right li {
+        font-size: 15px;
+    }
+    .footer-right ul {
+        flex-wrap: nowrap;
+    }
+}
