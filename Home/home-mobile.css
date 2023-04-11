@@ -1,0 +1,8 @@
+@media screen and (min-width: 360px) and (max-width: 760px) {
+    .menu-desktop {
+        display: none;
+    }
+    .menu-mobile {
+        display: inline;
+    }
+}
