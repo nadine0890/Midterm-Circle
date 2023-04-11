@@ -15,6 +15,9 @@ body {
     justify-content: space-around;
     text-decoration: none;
 }
+.menu-mobile {
+    display: none;
+}
 .contact-container {
     display: flex;
     align-items: center;
@@ -31,7 +34,7 @@ h1 {
     font-size: 25px;
     color: #292E47;
 }
-li {
+.menu-desktop .footer-right li {
     color: #6B708D;
     font-size: 20px;
     list-style: none;
@@ -47,11 +50,12 @@ a {
 }
 .list-nav li {
     margin: 50px;
+    list-style: none;
 }
 /*intro-home*/
 .intro-pics {
     background-image: url(/hero-section-20230228T193810Z-001/hero-section/hero-image.png);
-    background-size: 100%;
+    background-size: 80%;
     background-repeat: no-repeat;
     width: 77%;
     position: relative;
@@ -76,8 +80,8 @@ a {
     position: absolute;
     border-radius: 15%;
     background-color: transparent;
-    bottom: -7%;
-    right: -13%;
+    bottom: -25%;
+    right: 0%;
 }  
 .intro-h1 {
     font-size: 50px;
@@ -331,51 +335,5 @@ footer {
 }
 .footer-left address {
     margin: 25px 0px;
-}
-@media screen and (min-width 768px) and (max-width 1250px) {
-    .nav-bar {
-        width: auto;
-    }
-    .intro-h1 {
-        font-size: 2.5em;
-    }
-    .intro-h3 {
-        font-size: 1.5em;
-    }
-    .intro-text {
-        padding: 2em 0em 2em 2em;
-    }
-    .intro-pics {
-        max-width: 100%;
-    }
-    .intro-2 {
-        bottom: 20%;
-        right: -5%;
-    }
-    .logos {
-        justify-content: space-evenly;
-    }
-    .services-div {
-        gap: 10px;
-        justify-content: space-evenly;
-    }
-    .service-text {
-        padding: 20px;
-    }
-    .services-div h5 {
-        font-size: 20px;
-    }
-    .projects {
-        padding: 0% 5% 5% 5%;
-    }
-    .questions h1 {
-        font-size: 35px;
-    }
-    .footer-right li {
-        font-size: 15px;
-    }
-    .footer-right ul {
-        flex-wrap: nowrap;
-    }
 }
 
