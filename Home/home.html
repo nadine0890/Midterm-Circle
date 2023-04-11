@@ -4,9 +4,11 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Circle Home</title>
     <link rel="stylesheet" href="/Home/home.css">
+    <link rel="stylesheet" href="/Home/home-tablet.css">
+    <link rel="stylesheet" href="/Home/home-mobile.css">
   </head>
   <body>
-    <nav>
+    <nav class="menu-desktop">
       <ul class="nav-bar">
           <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="Circle">
           <div class="list-nav">
@@ -20,7 +22,21 @@
           </form>
           </div>
       </ul>
-    </nav>  
+  </nav>
+  <nav role="navigation" class="menu-mobile">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="/index.html"><li>Home</li></a>
+          <a href="/Home/home.html"><li>Projects</li></a>
+          <a href="#"><li>Service</li></a>
+          <a href="/Contact/contact.html"><li>Contact</li></a>
+        </ul>
+      </div>
+    </nav>
     <section class="simplify">
       <h1>Simplify</h1>
       <div>
