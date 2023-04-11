@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/Gracias/gracias.css">
   </head>
   <body>
-    <nav>
+    <nav class="menu-desktop">
         <ul class="nav-bar">
             <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="Circle">
             <div class="list-nav">
@@ -15,12 +15,26 @@
                 <li><b>Service</b></li>
             </div>
             <div class="contact-container">
-                <form action="/Contact/contact.html">
-                    <button class="contact">Contact Us</button>
-                </form>
+              <form action="/Contact/contact.html">
+                <button class="contact">Contact Us</button>
+            </form>
             </div>
         </ul>
     </nav>
+    <nav role="navigation" class="menu-mobile">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/Home/home.html"><li>Projects</li></a>
+            <a href="#"><li>Service</li></a>
+            <a href="/Contact/contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
     <section>
         <h5>Thank you for your message!</h5>
         <h5>We will get back to you as soon as possible.</h5>
