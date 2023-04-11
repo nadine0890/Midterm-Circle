@@ -1,17 +1,22 @@
+
 * {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
     background-color: #F2F4FC;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+/*nav-bar*/
 .nav-bar {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     text-decoration: none;
+}
+.menu-mobile {
+    display: none;
 }
 .contact-container {
     display: flex;
@@ -29,7 +34,7 @@ h1 {
     font-size: 25px;
     color: #292E47;
 }
-li {
+.menu-desktop .footer-right li {
     color: #6B708D;
     font-size: 20px;
     list-style: none;
@@ -45,14 +50,12 @@ a {
 }
 .list-nav li {
     margin: 50px;
+    list-style: none;
 }
-.home-li {
-    color:#072AC8;
-    text-decoration: none;
-}
+/*intro-home*/
 .intro-pics {
     background-image: url(/hero-section-20230228T193810Z-001/hero-section/hero-image.png);
-    background-size: 84%;
+    background-size: 80%;
     background-repeat: no-repeat;
     width: 77%;
     position: relative;
@@ -63,29 +66,29 @@ a {
     flex-direction: row;
 }
 .intro-1 {
-    width: 55%;
+    width: 65%;
     display: flex;
     position: absolute;
     top: 0%;
-    left: -15%;
+    left: -19%;
     border-radius: 15%;
     background-color: transparent;
 }
 .intro-2 {
-    width:49%;
+    width:65%;
     display: flex;
     position: absolute;
     border-radius: 15%;
     background-color: transparent;
-    bottom: -18%;
-    right: 7%;
+    bottom: -25%;
+    right: 0%;
 }  
 .intro-h1 {
-    font-size: 60px;
+    font-size: 50px;
     color: #292E47;
 } 
 .intro-text {
-    padding: 152px;
+    padding: 90px;
 }
 .intro-h3 {
     font-size: 20px;
@@ -104,6 +107,7 @@ a {
     font-weight: lighter;
     margin-left: 40px;
 }
+/*logos*/
 .logos {
     display: flex;
     position: relative;
@@ -112,7 +116,7 @@ a {
     padding: 5% 0% 5% 0%;
     filter:grayscale(100%)
 }
-
+/*projects*/
 .projects-div {
     display: flex;
     position: relative;
@@ -145,12 +149,16 @@ a {
 }
 .simplify-1 {
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .projects img {
-    height: 360px;
-    width: 450px;
-    background-color: #FFF;
+    width: 100%;
+    background-color: #FFF;   
 }
+.vectorify {
+    width: 300%;
+}
+/*testimonial*/
 .testimonial {
     background-color: #292E47;
     background-image: url(/testimonial-section-20230228T193817Z-001/testimonial-section/orbit.png);
@@ -215,6 +223,7 @@ a {
     color: white;
     text-align: left;
 }
+/*services*/
 .services img {
     width: 70px;
 }
@@ -248,6 +257,7 @@ a {
 }
 .background-square {
     background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .img-container {
     width: 100px;
@@ -258,6 +268,7 @@ a {
     justify-content: center;
     margin: 35px;
 }
+/*questions*/
 .questions {
     background-color: #FFC600;
     display: flex;
@@ -284,6 +295,7 @@ a {
     width: 75%;
     border: none;
     margin-right: 15px;
+    background-position: 2%;
 }
 .questions form {
     background-color: #FFC600;
@@ -296,6 +308,7 @@ a {
 form {
     display:flex;
 }
+/*address*/
 footer {
     display: flex;
     position: relative;
@@ -323,3 +336,4 @@ footer {
 .footer-left address {
     margin: 25px 0px;
 }
+

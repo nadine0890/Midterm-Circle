@@ -1,0 +1,139 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #F2F4FC;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*nav-bar*/
+.menu-mobile {
+    display: none;
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.contact-container {
+    display: flex;
+    align-items: center;
+}
+.contact {
+    background-color: #072AC8;
+    border: none;
+    color: #F2F4FC;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+h1 {
+    font-size: 25px;
+    color: #292E47;
+}
+li {
+    color: #6B708D;
+    font-size: 20px;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.list-nav {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+.list-nav li {
+    margin: 50px;
+}
+/*address*/
+footer {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.footer-right ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-right li {
+    margin: 25px;
+}
+.footer-left img {
+    width: 30%;
+}
+.footer-left address {
+    margin: 25px 0px;
+}
+/*contact form*/
+h5 {
+    font-size: 75px;
+    color: #292E47;
+    margin: 5%;
+    padding: 5% 0%;
+}
+.container form {
+    width: 100%;
+    padding: 0% 5%;
+}
+input {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding: 1%;
+    margin: 2% 0%;
+}
+textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding:1%;
+    margin: 2% 0%;
+}
+.container {
+    color:#6B708D
+}
+.contact {
+    width: 100%;
+    background-color: #072AC8;
+    border: none;
+    color: #F2F4FC;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+}
+@media screen and (min-width: 768px) and (max-width: 1250px)  {
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .nav-bar {
+        width: auto;
+    }
+    h5 {
+        font-size: 50px;
+        margin: auto;
+    }
+    .container form {
+        padding: 0%;
+    }
+    .footer-right li {
+        font-size: 15px;
+    }
+    .footer-right ul {
+        flex-wrap: nowrap;
+    }
+}

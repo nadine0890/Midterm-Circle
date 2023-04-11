@@ -1,24 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Circle Design Midterm</title>
     <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/main-tablet.css">
+    <link rel="stylesheet" href="/main-mobile.css">
   </head>
   <body>
-    <nav>
+    <nav class="menu-desktop">
         <ul class="nav-bar">
             <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="Circle">
             <div class="list-nav">
-                <li><b>Home</b></li>
+                <li><a href="/index.html"><b>Home</b></a></li>
                 <li><a href="/Home/home.html"><b>Projects</b></a></li>
                 <li><b>Service</b></li>
             </div>
             <div class="contact-container">
+              <form action="/Contact/contact.html">
                 <button class="contact">Contact Us</button>
+            </form>
             </div>
         </ul>
     </nav>
+    <nav role="navigation" class="menu-mobile">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/Home/home.html"><li>Projects</li></a>
+            <a href="#"><li>Service</li></a>
+            <a href="/Contact/contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
     <section class="intro-home">
         <div class="intro-text">
             <h1 class="intro-h1">Empower Your Business With Stunning Design!</h1>
@@ -61,7 +79,7 @@
                 </div>
             </div>
             <div class="simplify-1">
-                <img src="/projects-section-20230228T193814Z-001/projects-section/3.jpg" alt="vectorify">
+                <img class="vectorify" src="/projects-section-20230228T193814Z-001/projects-section/3.jpg" alt="vectorify">
                 <div class="simplify">
                     <h5>Vectorify</h5>
                     <p>User Experience Design</p><br>

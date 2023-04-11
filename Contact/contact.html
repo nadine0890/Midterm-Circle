@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Circle Contact</title>
+    <link rel="stylesheet" href="/Contact/contact.css">
+    <link rel="stylesheet" href="/Contact/contact-tablet.css">
+    <link rel="stylesheet" href="/Contact/contact-mobile.css">
+  </head>
+  <body>
+    <nav class="menu-desktop">
+        <ul class="nav-bar">
+            <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="Circle">
+            <div class="list-nav">
+                <li><a href="/index.html"><b>Home</b></a></li>
+                <li><a href="/Home/home.html"><b>Projects</b></a></li>
+                <li><b>Service</b></li>
+            </div>
+            <div class="contact-container">
+              <form action="/Contact/contact.html">
+                <button class="contact">Contact Us</button>
+            </form>
+            </div>
+        </ul>
+    </nav>
+    <nav role="navigation" class="menu-mobile">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="/index.html"><li>Home</li></a>
+            <a href="/Home/home.html"><li>Projects</li></a>
+            <a href="#"><li>Service</li></a>
+            <a href="/Contact/contact.html"><li>Contact</li></a>
+          </ul>
+        </div>
+      </nav>
+    <section>
+        <h5>Contact Us</h5>
+        <div class="container">
+            <form action="/Gracias/gracias.html">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" pattern="[0-9]{9}"required>
+                <div class="message-box">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Write your message here..." rows="10" maxlength="1000" required></textarea>
+                </div>
+                <button class="contact">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-left">
+            <img src="/logos-20230228T193811Z-001/logos/circle.svg" alt="circle">
+            <address>
+                2972 Westheimer Rd. Santa Ana Illinois 85486
+            </address>
+        </div>        <div class="footer-right">
+            <ul>
+                <li>Team</li>
+                <li>Service</li>
+                <li>About Us</li>
+            </ul>
+            <ul>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+  </html>
