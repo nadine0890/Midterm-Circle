@@ -1,4 +1,4 @@
-@media screen and (min-width: 360px) and (max-width: 844px) {
+@media screen and (min-width: 360px) and (max-width: 760px) {
     .menu-desktop {
         display: none;
     }
@@ -93,5 +93,90 @@
     {
       transform: none;
     }
- 
+    .intro-text {
+      padding: 0px;
+      padding-left:15px;
+      padding-top: 45px;
+    }
+    .intro-pics {
+      display: none;
+    }
+    .intro-h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .intro-h3 {
+      text-align: center;
+    }
+    .contact {
+      font-size: 15px;
+      padding: 10px;
+    }
+    .logos {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 50px;
+    }
+    .logos img {
+      max-width: 25%;
+      padding: 10px;
+    }
+    .title-logos {
+      font-size: 2em;
+      text-align: center;
+    }
+    .simplify-1 img {
+      display: none;
+    }
+    .simplify {
+      padding: 10px;
+    }
+    .projects-div {
+      flex-direction: column;
+      text-align: center;
+      gap: 25px;
+    }
+    .projects-div h5 {
+      font-size: 2em;
+    }
+    .testimonial img {
+      display: none;
+    }
+    .testimonial-col-2-title {
+      font-size: 35px;
+    }
+    .testimonial-col-2-img img {
+      display: inline;
+      width: 45%;
+    }
+    .title-service {
+      font-size: 2em;
+    }
+    .services-div {
+      flex-direction: column;
+    }
+    .service-text {
+      padding: 15px;
+      text-align: center;
+    }
+    .img-container {
+      margin-top: 35px;
+      margin-left: 80px;
+    }
+    .services-div h5 {
+      margin: auto;
+    }
+    .questions h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+    .footer-right li {
+      margin: auto;
+      list-style: none;
+      text-align: left;
+    }
+    .footer-right ul {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
 }
